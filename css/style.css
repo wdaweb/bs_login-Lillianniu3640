@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/peninsula_landscape3-1455x970.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.loginform{
+    /* border:1px solid #fff; */
+    border-radius: 2%;
+    padding: 40px 50px;
+    margin-top: 50%;
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.icon_login{
+    width: 25%;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -55%);
+}
+
+.form-control{
+    position: relative;
+    padding-left: 15%;
+}
+
+.icon_person{
+    width: 7%;
+    position: absolute;
+    transform: translate(25%, 20%);
+    z-index: 999;
+}
+
+.icon_lock{
+    width: 5%;
+    position: absolute;
+    transform: translate(50%, 50%);
+    z-index: 999;
+}
+
+.a{
+    font-size: 8px;
+}
+
+.forgot{
+    transform: translate(30%, -5%);
+}
+
+@media (max-width:576px) {
+    .forgot{
+        transform: translate(0%,-100%);
+    }
+}
